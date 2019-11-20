@@ -1,4 +1,4 @@
-package com.baomidou.config;
+package com.slm.config;
 
 import java.io.File;
 import java.nio.charset.Charset;

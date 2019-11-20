@@ -1,4 +1,4 @@
-package com.baomidou.config.rules;
+package com.slm.config.rules;
 
 /**
  * 数据库类型定义

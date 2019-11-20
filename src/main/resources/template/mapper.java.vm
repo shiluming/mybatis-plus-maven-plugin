@@ -1,7 +1,8 @@
-package ${package.Mapper};
+package ${package.Mapper}import com.slm.mybatisplus.mapper.AutoMapper;
 
-import ${package.Entity}.${entity};
-import com.baomidou.mybatisplus.mapper.AutoMapper;
+;
+${package.Entity}
+        .${entity};
 
 /**
  * Mapper接口

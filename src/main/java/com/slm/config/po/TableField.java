@@ -1,4 +1,4 @@
-package com.baomidou.config.po;
+package com.slm.config.po;
 
 /**
  * Developer:YangHu

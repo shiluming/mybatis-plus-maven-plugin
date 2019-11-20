@@ -4,20 +4,15 @@
 
     <groupId>com.baomidou</groupId>
     <artifactId>mybatisplus-maven-plugin</artifactId>
-    <version>1.0.0</version>
+    <version>2.0.0</version>
     <packaging>maven-plugin</packaging>
 
     <name>mybatisplus-maven-plugin Maven Plugin</name>
 
     <url>https://github.com/baomidou/mybatisplus-maven-plugin</url>
-    <developers>
-        <developer>
-            <name>YangHu</name>
-            <email>althyman@gmail.com</email>
-            <organization>baomidou</organization>
-        </developer>
-    </developers>
+
     <description>Mybatis-plus框架代码生成器</description>
+
 
     <licenses>
         <license>
@@ -28,6 +23,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
     <dependencies>
@@ -103,74 +100,6 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
-
-
-            <plugin>
-                <groupId>com.baomidou</groupId>
-                <artifactId>mybatisplus-maven-plugin</artifactId>
-                <version>1.0.0</version>
-                <configuration>
-                    <!-- 输出目录(默认java.io.tmpdir) -->
-                    <outputDir>/Users/cxdev/Documents</outputDir>
-                    <!-- 是否覆盖同名文件(默认false) -->
-                    <fileOverride>true</fileOverride>
-                    <!-- mapper.xml 中添加二级缓存配置(默认true) -->
-                    <enableCache>true</enableCache>
-                    <!-- 开发者名称 -->
-                    <author>Yanghu</author>
-                    <!-- 数据源配置，(必配) -->
-                    <dataSource>
-                        <driverName>com.mysql.jdbc.Driver</driverName>
-                        <url>jdbc:mysql://127.0.0.1:3306/mybatis-plus?useUnicode=true&amp;useSSL=false</url>
-                        <username>root</username>
-                        <password>123456</password>
-                    </dataSource>
-                    <strategy>
-                        <!-- 字段生成策略，四种类型，从名称就能看出来含义
-                        nochange(默认),
-                        underline_to_camel,
-                        remove_prefix,
-                        remove_prefix_and_camel -->
-                        <naming>underline_to_camel</naming>
-                        <!-- ID策略 是LONG还是STRING类型(默认stringtype)-->
-                        <serviceIdType>longtype</serviceIdType>
-                        <!--Entity中的ID生成策略（默认 id_worker）-->
-                        <idGenType>uuid</idGenType>
-                        <!--自定义超类-->
-                        <!--<superServiceClass>net.hyman.base.BaseService</superServiceClass>-->
-                        <!-- 要包含的表 与exclude 二选一配置-->
-                        <include>
-                            <property>sys_users</property>
-                        </include>
-                        <!-- 要排除的表 -->
-                        <!--<exclude>-->
-                            <!--<property>schema_version</property>-->
-                            <!--<property>schema_version</property>-->
-                        <!--</exclude>-->
-                    </strategy>
-                    <packageInfo>
-                        <!-- 父级包名称，如果不写，下面的service等就需要写全包名(默认com.baomidou) -->
-                        <parent>net.hyman</parent>
-                        <!--service包名(默认service)-->
-                        <service>service</service>
-                        <!--serviceImpl包名(默认service.impl)-->
-                        <serviceImpl>service.impl</serviceImpl>
-                        <!--entity包名(默认entity)-->
-                        <entity>entity</entity>
-                        <!--mapper包名(默认mapper)-->
-                        <mapper>mapper</mapper>
-                        <!--xml包名(默认mapper.xml)-->
-                        <xml>mapper.xml</xml>
-                    </packageInfo>
-                </configuration>
-                <dependencies>
-                    <dependency>
-                        <groupId>mysql</groupId>
-                        <artifactId>mysql-connector-java</artifactId>
-                        <version>5.1.38</version>
-                    </dependency>
-                </dependencies>
             </plugin>
 
         </plugins>

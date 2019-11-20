@@ -1,4 +1,4 @@
-package com.baomidou.config.rules;
+package com.slm.config.rules;
 
 /**
  * ID类型

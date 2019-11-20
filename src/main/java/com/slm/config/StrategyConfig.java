@@ -1,8 +1,8 @@
-package com.baomidou.config;
+package com.slm.config;
 
-import com.baomidou.config.rules.IdClassType;
-import com.baomidou.config.rules.IdStrategy;
-import com.baomidou.config.rules.NamingStrategy;
+import com.slm.config.rules.IdClassType;
+import com.slm.config.rules.IdStrategy;
+import com.slm.config.rules.NamingStrategy;
 import org.apache.maven.plugins.annotations.Parameter;
 
 /**

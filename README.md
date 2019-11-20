@@ -4,7 +4,7 @@
     
 ```xml
 <plugin>
-    <groupId>com.baomidou</groupId>
+    <groupId>com.slm</groupId>
     <artifactId>mybatisplus-maven-plugin</artifactId>
     <version>1.0.0</version>
     <configuration>

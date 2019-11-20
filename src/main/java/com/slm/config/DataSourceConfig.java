@@ -1,6 +1,6 @@
-package com.baomidou.config;
+package com.slm.config;
 
-import com.baomidou.config.rules.DbType;
+import com.slm.config.rules.DbType;
 import org.apache.maven.plugins.annotations.Parameter;
 
 import java.sql.Connection;

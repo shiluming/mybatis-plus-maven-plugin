@@ -1,4 +1,4 @@
-package com.baomidou.config;
+package com.slm.config;
 
 import org.apache.maven.plugins.annotations.Parameter;
 

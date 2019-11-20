@@ -1,6 +1,6 @@
-package com.baomidou.config.rules;
+package com.slm.config.rules;
 
-import com.baomidou.config.ConstVal;
+import com.slm.config.ConstVal;
 import org.apache.commons.lang.StringUtils;
 
 /**

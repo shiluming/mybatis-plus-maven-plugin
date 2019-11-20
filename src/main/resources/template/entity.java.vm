@@ -1,12 +1,9 @@
-package ${package.Entity};
+package ${package.Entity}import com.slm.mybatisplus.annotations.TableField;
+import com.slm.mybatisplus.annotations.TableId;
+import com.slm.mybatisplus.annotations.TableName;
 
-import com.baomidou.mybatisplus.annotations.TableField;
-import com.baomidou.mybatisplus.annotations.TableId;
-import com.baomidou.mybatisplus.annotations.TableName;
-
-import java.io.Serializable;
+;
 #if(${table.hasDate})
-import java.util.Date;
 #end
 
 /**

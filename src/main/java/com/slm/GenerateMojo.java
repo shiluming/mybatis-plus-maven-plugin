@@ -1,8 +1,8 @@
-package com.baomidou;
+package com.slm;
 
-import com.baomidou.config.ConstVal;
-import com.baomidou.config.builder.ConfigBuilder;
-import com.baomidou.config.po.TableInfo;
+import com.slm.config.ConstVal;
+import com.slm.config.builder.ConfigBuilder;
+import com.slm.config.po.TableInfo;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugin.MojoFailureException;
 import org.apache.maven.plugins.annotations.Mojo;

@@ -1,9 +1,9 @@
-package com.baomidou;
+package com.slm;
 
-import com.baomidou.config.DataSourceConfig;
-import com.baomidou.config.PackageConfig;
-import com.baomidou.config.StrategyConfig;
-import com.baomidou.config.builder.ConfigBuilder;
+import com.slm.config.DataSourceConfig;
+import com.slm.config.PackageConfig;
+import com.slm.config.StrategyConfig;
+import com.slm.config.builder.ConfigBuilder;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.logging.Log;
 import org.apache.maven.plugins.annotations.Parameter;

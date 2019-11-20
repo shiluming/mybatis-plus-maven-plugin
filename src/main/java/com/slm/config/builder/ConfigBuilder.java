@@ -1,13 +1,12 @@
-package com.baomidou.config.builder;
+package com.slm.config.builder;
 
-import com.baomidou.config.ConstVal;
-import com.baomidou.config.DataSourceConfig;
-import com.baomidou.config.PackageConfig;
-import com.baomidou.config.StrategyConfig;
-import com.baomidou.config.po.TableField;
-import com.baomidou.config.po.TableInfo;
-import com.baomidou.config.rules.*;
-import javafx.scene.control.Tab;
+import com.slm.config.ConstVal;
+import com.slm.config.DataSourceConfig;
+import com.slm.config.PackageConfig;
+import com.slm.config.StrategyConfig;
+import com.slm.config.po.TableField;
+import com.slm.config.po.TableInfo;
+import com.slm.config.rules.*;
 import org.apache.commons.lang.StringUtils;
 
 import java.io.File;
